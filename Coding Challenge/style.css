@@ -1,0 +1,96 @@
+/* generale */
+*{
+  margin: 0px;
+  box-sizing: content-box;
+}
+
+/* sfondo */
+
+body{
+  background-image: url("img/background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 60px;
+}
+
+/* logo e menù */
+
+.container{
+  background-color: rgba(0, 0, 0, 0.56);
+  border-radius: 20px;
+  padding: 100px 80px;
+  width: 1000px;
+  margin: auto;
+  font-family: 'Montserrat', sans-serif;
+}
+
+header, nav{
+  text-align: center;
+}
+
+header img{
+  width: 250px
+}
+
+header h1{
+  color: lime;
+  font-weight: 400;
+}
+
+nav{
+  background-color: lime;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+/* main */
+
+main{
+  width: 60%;
+}
+
+section.dati-cliente{
+  margin: 30px 0px 15px
+}
+
+section span{
+  color: white;
+  font-weight: 100;
+  font-size: 15px;
+}
+
+.nome-cliente span{
+  font-size: 25px;
+  font-weight: 400;
+}
+
+.posizione span{
+  display: block;
+  padding: 10px 0px;
+}
+
+.posizione span:before{
+  content: "\21A6";
+  margin-right: 5px;
+}
+
+.barra-carica{
+  height: 30px;
+  border-radius:5px;
+}
+ /* colori e lunghezze delle barre batteria */
+
+.gino{
+  width: 60%;
+  background-color: rgb(255, 205, 81);
+}
+
+.mike{
+  width: 100%;
+  background-color: rgb(51, 193, 0);
+}
+
+.fede{
+  width: 30%;
+  background-color: rgb(193, 0, 51);
+}
